@@ -1,0 +1,137 @@
+body {
+    margin: 10px;
+    background-color: white;
+}
+
+p {
+    margin-top: 9px;
+    font-size: 80%;
+    margin-bottom: 9px;
+    font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+}
+
+h2 {
+    margin-top: 9px;
+    font-weight: bold;
+    font-size: 120%;
+    color: orange;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+}
+
+h3 {
+    margin-top: 17px;
+    font-weight: bold;
+    font-size: 100%;
+    color: orange;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+}
+
+h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 120%;
+    color: #fff;
+}
+
+a 
+{
+color: #093
+}
+
+
+img {
+    border: 0;
+}
+
+header {
+    display: block;
+    width: 600px;
+    padding: 0;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+
+#head {
+    padding: 0px;
+    margin: 0px;
+    height: 62px;
+    background: #fff url(header_background.png) no-repeat left;
+}
+
+nav {
+    display: block;
+    float: left;
+    width: 165px;
+    height: 250px;
+    background: #fff url(nav_background.jpg) no-repeat top;
+}
+
+#catalog {
+    margin-top: 185px;
+    margin-left: 25px;
+}
+
+article {
+    padding: 0;
+    margin-left: 170px;
+    height: 500px;
+    width: 435px;
+    background-color: #fff;
+    display: block;
+}
+
+footer {
+    width: 600px;
+    height: 100px;
+    display: block;
+    font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+    font-size: 80%;
+    color: #afafaf;
+    padding: 0;
+    margin-top: 0;
+    background: #000 url(footer_background.jpg) no-repeat left;
+}
+
+#address {
+    float: left;
+    margin-left: 10px;
+}
+
+#follow {
+    margin-left: 275px;
+}
+
+#footerlinks {
+    text-align: center;
+}
+td.center {
+    text-align: center;
+}
+
+table {
+    border-style: double;
+    font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+    font-size: 70%;
+    width: 90%;
+  } 
+
+  table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+td {
+    padding: 5px;
+  }
+
+tr:nth-child(2n-4){
+    
+    background-color: #6699FF;
+}
+
+th{
+    width: 93px;
+}
