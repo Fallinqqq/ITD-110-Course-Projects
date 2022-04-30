@@ -14,52 +14,87 @@
     </header>
 
     <!-- Navigation Bar-->
-    <div class="navbar">
-        <a href="index.html" class="buttons">Home</a>
-        <div class="dropdown">
-            <a href="#scenery" class="dropbtn">Scenery</a>
-            <div class="dropdown-content">
-                <a href="beach.html" class="buttons">Beaches</a>
-                <a href="city.html" class="buttons">Cities</a>
-                <a href="lake.html" class="buttons">Lakes</a>
-                <a href="mountain.html" class="buttons">Mountains</a>
-            </div>
-        </div>
-        <a href="recycle.html" class="buttons">Recycle</a>
-        <a href="donate.html" class="buttons">Donate</a>
-        <a href="contact.html" class="buttons">Contact</a>
+    <div class="nav">
+        <ul>
+            <li>
+                <a href="index.html" class="buttons">Home</a>
+            <li><a href="scenery.html" class="buttons">Scenery ▼ </a>
+                <ul>
+                    <li><a href="beach.html">Beaches</a></li>
+                    <li><a href="city.html">Cities</a></li>
+                    <li><a href="lake.html">Lakes</a></li>
+                    <li><a href="mountain.html">Mountains</a></li>
+                </ul>
+            </li>
+            <li><a href="recycle.html" class="buttons">Recycle</a></li>
+            <li><a href="donate.html" class="buttons">Donate</a></li>
+            <li><a href="about.html" class="buttons">About</a></li>
+            <li><a href="contact.html" class="buttons">Contact</a></li>
+            </li>
+        </ul>
     </div>
 
+    <!--https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML#:~:text=To%20use%20image%20as%20a,add%20the%20height%20and%20width.-->
     <div id="wrapper">
         <article>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
-            </br>
+            <h1 align="center"><strong>Welcome to the Best Sceneries!</strong></h1>
+            <div style="text-align:center;">
+                <p><strong>Take a look at the most beautiful sceneries their are to offer and maybe one day even
+                        visit!</strong></p>
+                <p>* Either click on the slideshow below or hover over the scenery button to see all the beautiful views
+                    nature and cities have to offer.
+                </p>
+            </div>
+
+
+            <div style="position: relative; text-align: center;">
+                <div class="mySlides fade">
+                    <div class=" scenary-label">Cities </div>
+                    <a href="city.html"><img src="images/washingtonDC.jpg" alt="Cities"
+                            style="width:800px; height: 400px;"></a>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class=" scenary-label">Lakes </div>
+                    <a href="lake.html"><img src="images/smithmtlake.jpg" alt="Lakes"
+                            style="width:800px; height: 400px;"> </a>
+                </div>
+
+
+                <div class="mySlides fade">
+                    <div class=" scenary-label">Beaches </div>
+                    <a href="beach.html"><img src="images/myrtlebeachSC.jpg" alt="Beaches"
+                            style="width:800px; height: 400px;"> </a>
+                </div>
+
+
+                <div class="mySlides fade">
+                    <div class=" scenary-label">Mountains </div>
+                    <a href="mountain.html"><img src="images/blueridgemt.jpg" alt="Mountains"
+                            style="width:800px; height: 400px;"> </a>
+                </div>
+            </div>
+
         </article>
     </div>
 
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+                slides[i].style.maxheight = "500px";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 3000); // Change image every 2 seconds
+        }
+    </script>
 
     <!-- Footer of the page-->
     <footer>
