@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Beauflor</title>
+    <link rel="stylesheet" type="text/css" href="css/beauflor.css" />
+</head>
+
+<!-- Body of the page-->
+
+<body>
+    <!-- Header of the page-->
+    <header>
+        <img src="images/beauflorbg.png">
+    </header>
+
+    <!-- Navigation Bar-->
+    <div class="nav">
+        <ul>
+            <li>
+                <a href="index.html" class="buttons">Home</a>
+            <li><a href="#" class="buttons">Scenery ▼ </a>
+                <ul>
+                    <li><a href="beach.html">Beaches</a></li>
+                    <li><a href="city.html">Cities</a></li>
+                    <li><a href="lake.html">Lakes</a></li>
+                    <li><a href="mountain.html">Mountains</a></li>
+                </ul>
+            </li>
+            <li><a href="recycle.html" class="buttons">Recycle</a></li>
+            <li><a href="donate.html" class="buttons">Donate</a></li>
+            <li><a href="contact.html" class="buttons">Contact</a></li>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <div id="wrapper">
+        <article>
+            <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="images/Lynchburg.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="images/hotsprings.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="images/myrtlebeachSC.jpg" style="width:100%">
+                </div>
+            </div>
+
+            <div>
+                <p class="p1"><b>Welcome to Beauflor</b></p>
+                <div class="hometext">
+                    <p>You've stumbled upon a site that shows the various amount of the best Sceneries I've
+                        been to!
+                        you will also learn more about recycleing and even be able to Donate to SYLE!
+                    </p>
+                </div>
+            </div>
+            <br />
+            <section>
+                <div class="hometext2">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur elementum hendrerit eros non
+                        fringilla. Nulla non lectus at ipsum porttitor aliquet. Etiam a nibh sed elit condimentum
+                        hendrerit.
+                        Maecenas fringilla, turpis et viverra gravida, est est pulvinar nisi, eget viverra urna lacus
+                        sit
+                        amet nulla. Nulla euismod arcu egestas turpis maximus, sed consequat ligula mattis.
+                    </p>
+                </div>
+            </section>
+        </article>
+    </div>
+
+    <!-- Footer of the page-->
+    <footer>
+        <p>Copyright ©️ 2022 Grace Foster
+        </p>
+        <p>(:3｣∠)_</p>
+    </footer>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+                slides[i].style.maxheight = "500px";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 4321); // Change image every 2 seconds
+        }
+    </script>
+
+</body>
+
+</html>
