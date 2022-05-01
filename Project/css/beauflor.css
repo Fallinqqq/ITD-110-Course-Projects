@@ -1,10 +1,8 @@
-/**
-* Generic Section
-**/
+/**Generic Section**/
 
 body {
     color: #000000;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header {
@@ -48,6 +46,7 @@ footer {
     width: 100%;
 }
 
+/*8 Buttons / nav bar **/
 .nav ul { 
     background:#71a06b; 
     padding:0;
@@ -101,7 +100,7 @@ footer {
    z-index: 3;
  }
 
-  /* hover button effect */
+/** hover button effect **/
 .buttons {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: #71a06b;
@@ -119,14 +118,13 @@ footer {
   z-index: 3;
   }
 
-  /* hover button effect */
 .buttons:hover {
     background-color:#94c58c;
     opacity: 1
 }
 
-/*** https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow */
-/* Slideshow container */
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow */
+/** Slideshow container **/
 .slideshow-container {
     max-height: 600px;
     max-width: 600px;
@@ -135,12 +133,12 @@ footer {
     float: left;
   }
   
-  /* Hide the images by default */
+/** Hide the images by default **/
 .mySlides {
     display: none;
   }
   
-  /* Next & previous buttons */
+/** Next & previous buttons **/
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -156,18 +154,13 @@ footer {
     user-select: none;
   }
   
-  /* Position the "next button" to the right */
+/** Position the "next button" to the right **/
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
   
-  /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
-  /* Caption text */
+/** Caption text **/
 .text {
     color: #f2f2f2;
     font-size: 15px;
@@ -186,28 +179,6 @@ footer {
     position: absolute;
     top: 0;
   }
-  
-  /* Fading animation */
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-@keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-
-  /* slide show image */
-img.example{
-    float: left;
-    width: 100%;
-    height: auto;
-    margin: 0px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 50px;
-}
 
 .p1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -229,9 +200,10 @@ img.example{
     display: block;
 }
 
-/**
-* Home Section
-**/
+
+
+/** home Section **/
+
 
 div.hometext {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -257,9 +229,7 @@ div.exampleimage {
     width: 35%;
 }
 
-/**
-* Donate Section
-**/
+ /**Donate Section**/
 
 p.donatetxt {
     padding: right;
@@ -299,7 +269,6 @@ div.floater-right {
 
 /* DONATE PAGE WEB FORM */
 /* https://codepen.io/ssbalakumar/pen/bGwwaG?editors=1100 */
-
 
 .donateform {
     max-width:400px;
@@ -367,6 +336,7 @@ div.floater-right {
 	width:100%;
 	margin:0 auto;
 	position:relative;
+    bottom: 55px;
 }
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
@@ -394,7 +364,7 @@ div.floater-right {
 }
 
 table.contact {
-	border: medium none !important;
+	border: medium none ;
 	margin: 0 0 10px;
 	min-width: 100%;
 	padding: 0;
@@ -416,7 +386,6 @@ table.contact {
 }
 
 #contact button[type="submit"] {
-    
 	cursor:pointer;
 	width:100%;
 	border:none;
@@ -448,6 +417,7 @@ table.contact {
     clear: both;
 }
 
+/** Social Media Image Alignment **/
 .smedia {
     display: inline-block;
     margin-left: 15px;
@@ -494,7 +464,7 @@ table.contact {
     width: 400px;
 }
 
-
+/** Image Alignment for scenerys **/
 .beach-area{
     width: 50%;
     padding: 20px;
@@ -509,11 +479,8 @@ table.contact {
 }
 
 /* https://www.delftstack.com/howto/css/css-font-border/ */
-
 .scenary-label {
-    -webkit-text-stroke: 1px #65ad69;
     font-family: arial; color: #65ad69;
-    ;
     font-size: 14px;
     padding: 8px 12px;
     padding-top: 80px;
@@ -521,6 +488,3 @@ table.contact {
     left: 50%;
     transform: translate(-50%, -50%);
    }
-  
-
-

@@ -5,6 +5,8 @@
     <meta charset="UTF-8" />
     <title>Beauflor</title>
     <link rel="stylesheet" type="text/css" href="css/beauflor.css" />
+    <!-- https://www.w3schools.com/html/html_favicon.asp -->
+    <link rel="icon" type="image/x-icon" href="images/beauflorbg.png">
 </head>
 
 <body>
@@ -18,7 +20,7 @@
         <ul>
             <li>
                 <a href="index.html" class="buttons">Home</a>
-            <li><a href="#" class="buttons">Scenery ▼ </a>
+            <li><a href="scenery.html" class="buttons">Scenery ▼ </a>
                 <ul>
                     <li><a href="beach.html">Beaches</a></li>
                     <li><a href="city.html">Cities</a></li>
@@ -52,23 +54,39 @@
                     <table>
                         <textarea placeholder="Type your Message Here...." required></textarea>
                     </table>
+
+                    <table>
+                        <div align="center">
+                            <label for="findus"><strong>Where did you hear about Beauflor? </strong></label>
+                            <select style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"
+                                name="social medias" id="social medias">
+                                <option value"Linkedin">Linkedin</option>
+                                <option value"Github">Github</option>
+                                <option value"Ads">Ads</option>
+                                <option value"Friend">Friends</option>
+                            </select>
+                        </div>
+                    </table>
+                    <br><br>
                     <table>
                         <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
                     </table>
+
                 </form>
 
                 <div id="images">
-                    <a href="#"><img src="images/github.png" class="smedia" style="width: 50px"></a>
+                    <a href="https://github.com/"><img src="images/github.png" class="smedia" style="width: 50px"></a>
                     <a href="mailto:gkf263@email.vccs.edu">
                         <img src="images/email.png" class="smedia" style="width: 50px"></a>
-                    <a href="https://www.linkedin.com/in/grace-foster-988515178/"><img class="smedia"
-                            src="images/linkedin.png" style="width: 50px"></a>
+                    <a href="https://www.linkedin.com/"><img class="smedia" src="images/linkedin.png"
+                            style="width: 50px"></a>
                 </div>
         </article>
     </div>
     <!-- Footer of the page-->
     <footer>
-        <p>Copyright ©️ 2022 Grace Foster
+        <p>
+            Terms of Service | Copyright ©️ 2022 Beauflor | Privacy Policy
         </p>
     </footer>
 
