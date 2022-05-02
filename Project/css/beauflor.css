@@ -1,4 +1,4 @@
-/**Generic Section**/
+/** Generic Section **/
 
 body {
     color: #000000;
@@ -32,6 +32,7 @@ img {
     margin: 0 auto;
 }
 
+
 footer {
     position: absolute;
     bottom: 0;
@@ -46,11 +47,12 @@ footer {
     width: 100%;
 }
 
-/*8 Buttons / nav bar **/
+/** Buttons / nav bar **/
 .nav ul { 
     background:#71a06b; 
     padding:0;
     z-index: 3;
+    text-align: center;
  }
  
  .nav li { 
@@ -99,6 +101,8 @@ footer {
    top:0;
    z-index: 3;
  }
+
+
 
 /** hover button effect **/
 .buttons {
@@ -210,7 +214,7 @@ div.hometext {
     position: relative;
     padding: left;
     padding-right: 25px;
-    font-size: 17px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -234,7 +238,7 @@ div.exampleimage {
 p.donatetxt {
     padding: right;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -465,9 +469,10 @@ table.contact {
 }
 
 /** Image Alignment for scenerys **/
-.beach-area{
+.nature-label{
     width: 50%;
     padding: 20px;
+    font-size: 18px;
     text-align: center;
     display:table-cell;
     vertical-align:middle;
@@ -480,7 +485,7 @@ table.contact {
 
 /* https://www.delftstack.com/howto/css/css-font-border/ */
 .scenary-label {
-    font-family: arial; color: #65ad69;
+    font-family: arial; color: #000000;
     font-size: 14px;
     padding: 8px 12px;
     padding-top: 80px;
